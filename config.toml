@@ -1,4 +1,4 @@
-baseurl = "https://mflipro.github.io/"
+baseurl = "https://mflipro.com/"
 title = "Mingfei Li's Blog"
 author = "Mingfei"
 canonifyurls = true
@@ -15,8 +15,8 @@ pygmentscodefences  = true
 
 [[menu.main]]
     name = "About"
-    url  = "about/"
+    url  = "/about/"
 
 [[menu.main]]
     name = "Subscribe"
-    url  = "index.xml"
+    url  = "/index.xml"
