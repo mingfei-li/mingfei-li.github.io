@@ -30,5 +30,5 @@ title = "Blog"
   show_more_url = "posts"
 
 [[entries]]
-title = "rss"
+title = "RSS"
 url = "index.xml"
