@@ -2,17 +2,26 @@
 title = "Info"
 
   [[entries.entries]]
-  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
+  title = "Director of Engineering @ Meta, working Integrity (aka Trust & Safety)."
 
   [[entries.entries]]
-  title = "github repo"
-  url = "https://github.com/riggraz/no-style-please"
+  title = "Contact me"
 
-  [[entries.entries]]
-  title = "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+    [[entries.entries.entries]]
+    title = "Twitter"
+    url = "https://twitter.com/mflipro"
+
+    [[entries.entries.entries]]
+    title = "Github"
+    url = "https://github.com/mflipro/"
+    
+    [[entries.entries.entries]]
+    title = "Linkedin"
+    url = "https://www.linkedin.com/in/mflipro/"
+
 
 [[entries]]
-title = "all posts"
+title = "All posts"
 
   [entries.post_list]
   limit = 5
