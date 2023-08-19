@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Mingfei Li&#39;s Blog</title>
-    <link>https://mflipro.github.io/</link>
-    <description>Recent content in About on Mingfei Li&#39;s Blog</description>
+    <title>Posts on Mingfei Li&#39;s Blog</title>
+    <link>https://mflipro.github.io/posts/</link>
+    <description>Recent content in Posts on Mingfei Li&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mflipro.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mflipro.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to set up a Deep Learning Development Environment on Google Cloud</title>
       <link>https://mflipro.github.io/posts/gcp-setup/</link>

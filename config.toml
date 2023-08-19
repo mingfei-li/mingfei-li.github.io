@@ -1,0 +1,22 @@
+baseurl = "https://mflipro.github.io/"
+title = "Mingfei Li's Blog"
+author = "Mingfei"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+googleAnalytics = 'G-TCVGG51Q1D'
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Mingfei Li's Blog"
+  disableWebFonts = false
+
+[[menu.main]]
+    name = "About"
+    url  = "about/"
+
+[[menu.main]]
+    name = "Subscribe"
+    url  = "index.xml"

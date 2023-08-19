@@ -3,10 +3,10 @@ title: 'How to set up a Deep Learning Development Environment on Google Cloud'
 date: '2023-08-18'
 ---
 
-# Introduction
+## Introduction
 Unlike most deep learning courses that teach you the core concepts based on toy examples, the course I've been taking recently, [Deep Learning Fundametals](https://lightning.ai/courses/deep-learning-fundamentals/), gets you hands-on with the latest open-source tools for training real-world deep learning models. While this sounds exciting, it does demand more than the conventional Google Colab / Macbook development environments can offer – without some serious GPU power, it takes forever to train a ResNet-50 from scratch or fine tune all parameters of a DistilBert model. So, I set up a Google Cloud Platform (GCP) based development environment and it turned out to work pretty well both from a usability perspective and a cost perspective. In this blog post, I’ll walk through how I set up the GCP environment to train and test models with the course’s open source code.
 
-# Step 0: Why Cloud Computing?
+## Step 0: Why Cloud Computing?
 Cloud computing is the most flexible way of getting access to GPUs for someone who’s early in the Deep Learning journey.
 * A virtual machine (VM) works almost exactly like a physical machine which allows you to port your favorite development environment setup to the cloud. In comparison, Google Colab is much less usable due to the usbility limitations of Jupyter notebooks.
 * The wide selection of GPUs and the hourly cost structure allows you to pay only for what you use, which is much more cost-effective than setting up your own GPU workstation which requires a one-time upfront cost for a specific configuration. 
@@ -17,7 +17,7 @@ That said, as you go further along the journey, cloud computing might no longer 
 
 For now, the cloud computing solution is good enough for me. I went with Google Cloud (v.s. AWS) because of its fast permission approval time (it took me a few seconds to request a GPU v.s. a few days on AWS) and its more intuitive user experience (I always found AWS’s countless options extremely confusing).
 
-# Step 1: Set up a GCP VM
+## Step 1: Set up a GCP VM
 [This short video](https://www.youtube.com/watch?v=g2Il8cxNv18) together with [the GCP official documents](https://cloud.google.com/run/docs/setup) work as a reasonable introduction to how GCP works and how to set up and use a GCP VM. The tricky part is what specific configuration to use for a Deep Learning development environment, which will be the main focus here. Initially, I used GCP’s out-of-box “Deep Learning on Linux” option, but quickly ran into PyTorch compatibility issues. I learned that in order to use the latest version of PyTorch (2.0), I’d need to set up a VM from scratch.
 
 The following setup (with unmentioned parameters intact) worked well for me.
@@ -29,7 +29,7 @@ The following setup (with unmentioned parameters intact) worked well for me.
 
 This setup costs $1.9 per hour ($1,389.97 per month of cumulative usage). The monthly cost might seem high, but this is based on a month of active usage (v.s. a calendar month). With the $300 free credit for GCP new users, I’ve been able to train 10-15 ResNet models from scratch.
 
-# Step 2: Connect to the VM with SSH
+## Step 2: Connect to the VM with SSH
 There are a couple of super convenient ways to connect to a GCP VM, ranging from spinning up a SSH console directly in the browser to using the gcloud command line (CLI) tool. I decided to set up a traditional SSH config because it allows me to use Visual Studio Code (VS Code) to connect to the VM easily. Here’s how.
 
 1. **Set up a static external ip address [on this page](https://console.cloud.google.com/networking/addresses/)**. You’ll see the option after clicking the “...” button at the end of line of the VM’s external ip address. This will allow you to access the VM with a fixed ip address which in turn allows you to assign it with a permanent SSH host profile.
@@ -47,7 +47,7 @@ Host gcp
 ```
 5. **Set up VS Code**. Once the [`Remote - SSH`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) extension is installed, `gcp` will pop up when you try to connect with an SSH host in VS Code. [Here’s a detailed tutorial](https://code.visualstudio.com/docs/remote/ssh-tutorial). 
 
-# Step 3: Set up the Software Environment on the VM
+## Step 3: Set up the Software Environment on the VM
 Up to this point, the VM is an empty Linux box. Here are the steps to set up the necessary softwares for a Deep Learning environment.
 
 ### 3.1 Preparation 
@@ -138,9 +138,9 @@ $ conda install pip
 $ pip install numpy pandas matplotlib scikit-learn watermark lightning
 ```
 
-# Step 4: Verify it works end to end with VS Code
+## Step 4: Verify it works end to end with VS Code
 After cloning dl-fundamentals github repo into the VM, you can directly open the folder in VS code after SSH into the VM in VS Code. Open a notebook that involves model training, and VS code will guide you through the process of installing missing extensions and selecting the right python environment (pick the “dl-fundamental” Conda environment we set up above). The following is a screenshot of VS Code training a model with a Jupyter notebook hosted on a remote GCP VM.
 ![VS Code SSH into GCP](vs-code-ssh-gcp.png)
 
-# Conclusion
+## Conclusion
 That’s all you need to do to set up a Deep Learning environment on GCP. Please feel free to reach out to me if you have any questions or feedback about this tutorial. Hope you enjoy the Cloud GPUs and the Deep Learning Fundamentals course!
