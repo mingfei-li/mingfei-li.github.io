@@ -1,34 +1,27 @@
 [[entries]]
-title = "Info"
+title = "Director of Engineering @ Meta, working on Integrity (aka Trust & Safety)."
+
+[[entries]]
+title = "Contact"
 
   [[entries.entries]]
-  title = "Director of Engineering @ Meta, working on Integrity (aka Trust & Safety)."
+  title = "Twitter"
+  url = "https://twitter.com/mflipro"
 
   [[entries.entries]]
-  title = "Contact me"
-
-    [[entries.entries.entries]]
-    title = "Twitter"
-    url = "https://twitter.com/mflipro"
-
-    [[entries.entries.entries]]
-    title = "Github"
-    url = "https://github.com/mflipro/"
-    
-    [[entries.entries.entries]]
-    title = "Linkedin"
-    url = "https://www.linkedin.com/in/mflipro/"
+  title = "Github"
+  url = "https://github.com/mflipro/"
+  
+  [[entries.entries]]
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/mflipro/"
 
 
 [[entries]]
-title = "Blog"
+title = "Blog (<a href='index.xml'>RSS</a>)"
 
   [entries.post_list]
-  limit = 5
+  limit = 10
   show_more = true
   show_more_text = "See archive..."
   show_more_url = "posts"
-
-[[entries]]
-title = "RSS"
-url = "index.xml"
