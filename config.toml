@@ -1,4 +1,4 @@
-baseurl = "https://mflipro.com/"
+baseurl = "https://mflipro.github.io/"
 title = "Mingfei Li's Blog"
 author = "Mingfei"
 canonifyurls = true
