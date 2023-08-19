@@ -125,7 +125,7 @@ $ conda activate dl-fundamentals
 ```
 
 **2. Deep learning framework: PyTorch**: It’s critical to precisely follow [the PyTorch official installation guidance](https://pytorch.org/get-started/locally/) to make sure PyTorch is compatible with Cuda. My configuration and the corresponding installation command is shown in the following picture.
-![PyTorch Version Compatibility](/images/pytorch-version-compatibility.png)
+![PyTorch Version Compatibility](pytorch-version-compatibility.png)
 
 Note that you need to use the Cuda runtime version here (the output of `nvcc --version`). I ran into the following error when I initially used incompatible PyTorch and Cuda versions.
 ```
@@ -140,7 +140,7 @@ $ pip install numpy pandas matplotlib scikit-learn watermark lightning
 
 # Step 4: Verify it works end to end with VS Code
 After cloning dl-fundamentals github repo into the VM, you can directly open the folder in VS code after SSH into the VM in VS Code. Open a notebook that involves model training, and VS code will guide you through the process of installing missing extensions and selecting the right python environment (pick the “dl-fundamental” Conda environment we set up above). The following is a screenshot of VS Code training a model with a Jupyter notebook hosted on a remote GCP VM.
-![VS Code SSH into GCP](/images/vs-code-ssh-gcp.png)
+![VS Code SSH into GCP](vs-code-ssh-gcp.png)
 
 # Conclusion
 That’s all you need to do to set up a Deep Learning environment on GCP. Please feel free to reach out to me if you have any questions or feedback about this tutorial. Hope you enjoy the Cloud GPUs and the Deep Learning Fundamentals course!
