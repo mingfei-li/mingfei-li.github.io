@@ -11,7 +11,9 @@
   }
 
   body {
-    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
     font-size:17px;
     line-height:160%;
     color:#1d1313;
@@ -59,7 +61,7 @@
   pre>code {
     padding: 0;
     margin: 0;
-    font-size: 100%;
+    font-size: 90%;
     word-break: normal;
     white-space: pre;
     background: transparent;
@@ -82,24 +84,25 @@
     content: normal;
   }
 
-  em,q,em,dfn {
-    font-style:italic;
+  a {
+    color: #0070f3;
+    text-decoration: none;
   }
 
-  .sans,html .gist .gist-file .gist-meta {
-    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  a:hover {
+    text-decoration: underline;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
   }
 
   .mono,pre,code,tt,p code,li code {
     font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
   }
 
-  .heading,.serif,h1,h2,h3 {
-    font-family:"Old Standard TT",serif;
-  }
-
   strong {
-    font-weight:bolder;
+    font-weight:600;
   }
 
   q:before {
@@ -145,6 +148,7 @@
 
   h1 {
     font-size:35px;
+    font-weight: bold;
   }
 
   h2 {
@@ -179,6 +183,10 @@
     line-height:120%;
   }
 
+  #nav a {
+    color:#1d1313;
+  }
+
   .posts_listing a,#nav a {
     text-decoration: none;
   }
@@ -207,7 +215,7 @@
   #content {
     text-align:left;
     width:100%;
-    font-size:15px;
+    font-size:16px;
     padding:60px 0 80px;
   }
 
@@ -261,7 +269,7 @@
   #nav li {
     list-style-type:none;
     display:table-cell;
-    font-size:15px;
+    font-size:16px;
     padding: 0 20px;
   }
 
@@ -360,7 +368,7 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    *, #nav h1 a {
+    *, #nav h1 a, #nav a {
       color: #FDFDFD;
     }
 
