@@ -1,5 +1,5 @@
 ---
-title: 'How to set up a Deep Learning Development Environment on Google Cloud'
+title: 'How to Set up a GPU-powered Deep Learning Development Environment on Google Cloud'
 date: '2023-08-18'
 ---
 
