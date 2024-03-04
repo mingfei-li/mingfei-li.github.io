@@ -10,7 +10,7 @@ pygmentsstyle       = "bw"
 pygmentscodefences  = true
 
 [params]
-  sitename = "Mingfei Li's Blog"
+  sitename = "Mingfei's Blog"
   disableWebFonts = false
 
 [[menu.main]]
