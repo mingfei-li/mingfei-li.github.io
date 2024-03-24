@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://mingfei.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Set up a GPU-powered Deep Learning Development Environment on Google Cloud</title>
+      <title>Setting up a GPU-Powered Deep Learning Development Environment on Google Cloud</title>
       <link>https://mingfei.io/gcp-setup/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
