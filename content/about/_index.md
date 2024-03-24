@@ -1,5 +1,6 @@
 ---
 title: "About"
 ---
-
-Contact me on [Twitter](https://twitter.com/mingfei_x), [Github](https://github.com/mingfei-li), [Linkedin](https://www.linkedin.com/in/limingfei/).
+- Email: ml@mingfei.io
+- Twitter/X: [@mingfei_x](https://twitter.com/mingfei_x)
+- Github: [@mingfei-li](https://github.com/mingfei-li)
