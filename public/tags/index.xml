@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mingfei Li&#39;s Blog</title>
-    <link>https://mingfei-li.github.io/tags/</link>
+    <link>https://mingfei.io/tags/</link>
     <description>Recent content in Tags on Mingfei Li&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://mingfei-li.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://mingfei.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
