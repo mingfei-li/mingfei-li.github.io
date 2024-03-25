@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://mingfei.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Breaking out of the FAANG Bubble</title>
+      <link>https://mingfei.io/leaving-fb/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingfei.io/leaving-fb/</guid>
+      <description>I left Facebook/Meta this Friday.
+When I joined Facebook 11 years ago, I was just hoping to work with cool hackers for a few years, experience the Silicon Valley tech scene, make some money, and then go back to school to continue my theoretical computer science research. I soon became obsessed with the impact I got to make on billions of people, the coworkers I got to collaborate with and learn from, and the new skills and mindset shifts I got to pick up every day.</description>
+    </item>
+    
+    <item>
       <title>Setting up a GPU-Powered Deep Learning Development Environment on Google Cloud</title>
       <link>https://mingfei.io/gcp-setup/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
