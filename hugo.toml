@@ -1,0 +1,9 @@
+baseURL = 'https://mingfei.io/'
+languageCode = 'en-us'
+title = "Mingfei's Blog"
+
+theme = "nostyleplease"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-D7MFC9EKLE'

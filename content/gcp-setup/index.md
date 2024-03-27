@@ -1,12 +1,12 @@
 ---
-title: 'Setting up a GPU-Powered Deep Learning Development Environment on Google Cloud'
+title: 'Google Cloud setup for deep learning'
 date: '2023-08-18'
 ---
 
 ## Introduction
 Unlike most deep learning courses that teach you the core concepts based on toy examples, the course I've been taking recently, [Deep Learning Fundametals](https://lightning.ai/courses/deep-learning-fundamentals/), gets you hands-on with the latest open-source tools for training real-world deep learning models. While this sounds exciting, it does demand more than the conventional Google Colab / Macbook development environments can offer – without some serious GPU power, it takes forever to train a ResNet-50 from scratch or fine tune all parameters of a DistilBert model. I set up a Google Cloud Platform (GCP) based development environment to run the code from the course and build up my solutions to exercises. This setup turned out to work pretty well both from a usability perspective and a cost perspective. In this blog post, I’ll walk through how the GCP environment was set up.
 
-## Step 0: Why Cloud Computing?
+## Step 0: Why cloud computing?
 Cloud computing is the most flexible way of getting access to GPUs for someone who’s early in the Deep Learning journey.
 1. A virtual machine (VM) works almost exactly like a physical machine which allows you to port your favorite development environment setup to the cloud. In comparison, Google Colab is much less usable due to the usbility limitations of Jupyter notebooks.
 2. The wide selection of GPUs and the hourly cost structure allows you to pay only for what you use, which is much more cost-effective than setting up your own GPU workstation which requires a one-time upfront cost for a specific configuration. 
@@ -47,7 +47,7 @@ Host gcp
 ```
 5. **Set up VS Code**. Once the [`Remote - SSH`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) extension is installed, `gcp` will pop up when you try to connect with an SSH host in VS Code. [Here’s a detailed tutorial](https://code.visualstudio.com/docs/remote/ssh-tutorial). 
 
-## Step 3: Set up the Software Environment on the VM
+## Step 3: Set up the software environment on the VM
 Up to this point, the VM is an empty Linux box. Here are the steps to set up the necessary softwares for a Deep Learning environment.
 
 ### 3.1 Preparation 
@@ -143,4 +143,4 @@ After cloning dl-fundamentals github repo into the VM, you can directly open the
 ![VS Code SSH into GCP](vs-code-ssh-gcp.png)
 
 ## Conclusion
-That’s all you need to do to set up a Deep Learning environment on GCP. Please feel free to [reach out to me](/about/) if you have any questions or feedback about this tutorial. Hope you enjoy the Cloud GPUs and the Deep Learning Fundamentals course!
+That’s all you need to do to set up a Deep Learning environment on GCP. Please feel free to reach out to me if you have any questions or feedback about this tutorial. Hope you enjoy the Cloud GPUs and the Deep Learning Fundamentals course!
