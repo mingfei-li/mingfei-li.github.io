@@ -2,20 +2,10 @@
 title = '<a href="mailto:ml@mingfei.io">email</a> | <a href="https://twitter.com/mingfei_x">twitter/x</a> | <a href="/index.xml">rss</a>'
 
 [[entries]]
-title = "Blog posts"
+title = "Posts"
 
   [entries.post_list]
   section = 'blog'
-  limit = 5
-  show_more = true
-  show_more_text = "See archive..."
-  show_more_url = "posts"
-
-[[entries]]
-title = "Sabbatical weekly updates"
-
-  [entries.post_list]
-  section = 'weekly-updates'
   limit = 5
   show_more = true
   show_more_text = "See archive..."
