@@ -5,7 +5,6 @@ title = '<a href="mailto:ml@mingfei.io">email</a> | <a href="https://twitter.com
 title = "Posts"
 
   [entries.post_list]
-  section = 'blog'
   limit = 5
   show_more = true
   show_more_text = "See archive..."
