@@ -3,9 +3,9 @@ title: 'Week 1: 03/25 - 03/31'
 date: '2024-04-01'
 ---
 
-### Highlight: made a blog post about my sabbatical plan
+### Highlight: made [a blog post](/blog/leaving-fb) about my sabbatical plan
 
-I pretty much stopped sharing online after becoming a manager. Initially I thought it was because of lack of motivation – meetings seemed to have sucked up all my desire for expression, and I didn’t bother to get stuff cleared by comms. Later I realized that it was really imposter syndrome that held me back the most – I was worried that I’d say something dumb and all my colleagues and reports would notice and respect me less.
+I pretty much stopped sharing online after becoming a manager. Initially I thought it was because of lack of motivation – meetings seemed to have sucked up all my desire for expression, and I didn’t bother to get stuff cleared by comms. Later I realized that it was really imposter syndrome that held me back the most – I was worried that I’d say something dumb and all my colleagues and reports would notice and think I'm an idiot.
 
 I literally debated with myself for days – should I make a blog post, vlog, or just forget about it and save some time? Eventually convinced myself to at least start a draft and if I didn’t like it, I simply wouldn’t have to post it. Turns out the draft felt OK, and I was convinced that it’s better to post something that might look cringy later (which would show growth anyway) than being afraid to challenge myself. Super glad I pushed past my comfort zone and just went for it.
 
