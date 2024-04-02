@@ -1,6 +1,7 @@
 ---
-title: 'Sabbatical Updates: Week 1 (03/25 - 03/31)'
+title: 'Week 1: 03/25 - 03/31'
 date: '2024-04-01'
+category: 'sabbatical-weekly'
 ---
 
 ### Highlight: made a blog post about my sabbatical plan

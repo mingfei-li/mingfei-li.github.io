@@ -1,6 +1,7 @@
 ---
 title: "Leaving Facebook/Meta"
 date: '2024-03-24'
+category: 'blog'
 ---
 
 I left Facebook/Meta on Friday.

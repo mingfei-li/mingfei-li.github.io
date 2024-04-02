@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weekly-updates on Mingfei&#39;s Blog</title>
+    <link>https://mingfei.io/weekly-updates/</link>
+    <description>Recent content in Weekly-updates on Mingfei&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mingfei.io/weekly-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1st week of sabbatical (03/25 - 03/31)</title>
+      <link>https://mingfei.io/weekly-updates/week1/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingfei.io/weekly-updates/week1/</guid>
+      <description>Highlight: made a blog post about my sabbatical plan I pretty much stopped sharing online after becoming a manager. Initially I thought it was because of lack of motivation – meetings seemed to have sucked up all my desire for expression, and I didn’t bother to get stuff cleared by comms. Later I realized that it was really imposter syndrome that held me back the most – I was worried that I’d say something dumb and all my colleagues and reports would notice and respect me less.</description>
+    </item>
+    
+  </channel>
+</rss>

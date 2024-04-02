@@ -1,6 +1,7 @@
 ---
 title: 'Google Cloud setup for deep learning'
 date: '2023-08-18'
+category: 'blog'
 ---
 
 ## Introduction

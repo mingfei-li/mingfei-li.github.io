@@ -6,4 +6,4 @@ theme = "nostyleplease"
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-D7MFC9EKLE'
+    # ID = 'G-D7MFC9EKLE'

@@ -1,35 +1,22 @@
 [[entries]]
-title = "Subscribe (rss)"
-url = "index.xml"
+title = '<a href="mailto:ml@mingfei.io">email</a> | <a href="https://twitter.com/mingfei_x">twitter/x</a> | <a href="/index.xml">rss</a>'
 
 [[entries]]
-title = "Posts"
+title = "Blog posts"
 
   [entries.post_list]
+  section = 'blog'
   limit = 5
   show_more = true
   show_more_text = "See archive..."
   show_more_url = "posts"
 
 [[entries]]
-title = "About"
+title = "Sabbatical weekly updates"
 
-  [[entries.entries]]
-  title = "Email"
-  url = "mailto:ml@mingfei.io"
-
-  [[entries.entries]]
-  title = "Twitter/X"
-  url = "https://twitter.com/mingfei_x"
-
-  [[entries.entries]]
-  title = "Github"
-  url = "https://github.com/mingfei-li"
-
-  [[entries.entries]]
-  title = "LinkedIn"
-  url = "https://linkedin.com/in/limingfei"
-
-  [[entries.entries]]
-  title = "Google Scholar"
-  url = "https://scholar.google.com/citations?user=7Dtuy94AAAAJ"
+  [entries.post_list]
+  section = 'weekly-updates'
+  limit = 5
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
