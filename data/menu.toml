@@ -1,5 +1,11 @@
 [[entries]]
-title = '<a href="mailto:ml@mingfei.io">email</a> | <a href="https://twitter.com/mingfei_x">twitter/x</a> | <a href="/index.xml">rss</a>'
+title = "Independent hacker exploring AI/ML; previously Director of Engineering at Meta"
+  [[entries.entries]]
+  title = '<a href="mailto:ml@mingfei.io">Email</a>: for discussion / feedback / coffee chats'
+  [[entries.entries]]
+  title = '<a href="https://twitter.com/mingfei_x">Twitter/X</a>: for less coherent updates / thoughts'
+  [[entries.entries]]
+  title = '<a href="/index.xml">RSS</a>: for subscription'
 
 [[entries]]
 title = "Posts"
