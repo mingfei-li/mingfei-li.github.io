@@ -1,5 +1,5 @@
 ---
-title: 'Google Cloud setup for deep learning'
+title: 'Google Cloud Setup for Deep Learning'
 date: '2023-08-18'
 category: 'blog'
 ---

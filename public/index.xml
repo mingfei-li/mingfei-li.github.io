@@ -2,29 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mingfei&#39;s Blog</title>
-    <link>https://mingfei.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Mingfei&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Aug 2022 21:30:04 +0800</lastBuildDate><atom:link href="https://mingfei.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leaving Facebook/Meta</title>
-      <link>https://mingfei.io/leaving-fb/</link>
+      <link>http://localhost:1313/leaving-fb/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingfei.io/leaving-fb/</guid>
-      <description>I left Facebook/Meta on Friday.
-When I joined Facebook 11 years ago, I was just hoping to work with cool hackers for a few years, experience the Silicon Valley tech scene, make some money, and then go back to school to continue my theoretical computer science research. I soon became obsessed with the impact I got to make on billions of people, the coworkers I got to collaborate with and learn from, and the new skills and mindset shifts I got to pick up every day.</description>
+      <guid>http://localhost:1313/leaving-fb/</guid>
+      <description>I left Facebook/Meta on Friday.&#xA;When I joined Facebook 11 years ago, I was just hoping to work with cool hackers for a few years, experience the Silicon Valley tech scene, make some money, and then go back to school to continue my theoretical computer science research. I soon became obsessed with the impact I got to make on billions of people, the coworkers I got to collaborate with and learn from, and the new skills and mindset shifts I got to pick up every day.</description>
     </item>
-    
     <item>
-      <title>Google Cloud setup for deep learning</title>
-      <link>https://mingfei.io/gcp-setup/</link>
+      <title>Google Cloud Setup for Deep Learning</title>
+      <link>http://localhost:1313/gcp-setup/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingfei.io/gcp-setup/</guid>
+      <guid>http://localhost:1313/gcp-setup/</guid>
       <description>Introduction Unlike most deep learning courses that teach you the core concepts based on toy examples, the course I&amp;rsquo;ve been taking recently, Deep Learning Fundametals, gets you hands-on with the latest open-source tools for training real-world deep learning models. While this sounds exciting, it does demand more than the conventional Google Colab / Macbook development environments can offer – without some serious GPU power, it takes forever to train a ResNet-50 from scratch or fine tune all parameters of a DistilBert model.</description>
     </item>
-    
   </channel>
 </rss>

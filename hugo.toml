@@ -7,3 +7,8 @@ theme = "nostyleplease"
 [services]
   [services.googleAnalytics]
     ID = 'G-D7MFC9EKLE'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
