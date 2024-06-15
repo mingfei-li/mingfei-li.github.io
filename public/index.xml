@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mingfei&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:59789/</link>
     <description>Recent content on Mingfei&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:59789/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Deep Q-Network: a Reinforcement Learning Beginner&#39;s Challenges and Learnings</title>
+      <link>http://localhost:59789/dqn/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:59789/dqn/</guid>
+      <description>Deep Q-Network (DQN) is an Reinforcement Learning (RL) algorithm developed by Mnih et al. at DeepMind in 2013, which combines the classic RL algorithm Q-Learning with deep neural networks. It is considered as the first major success story of deep reinforcement learning due to its super-human level performance in Atari games &amp;ndash; it takes only raw pixels as input (i.e., it &amp;ldquo;sees&amp;rdquo; exactly what a human sees), and is able to outperform humans in a wide range of Atari games.</description>
+    </item>
     <item>
       <title>Leaving Facebook/Meta</title>
-      <link>http://localhost:1313/leaving-fb/</link>
+      <link>http://localhost:59789/leaving-fb/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/leaving-fb/</guid>
+      <guid>http://localhost:59789/leaving-fb/</guid>
       <description>I left Facebook/Meta on Friday.&#xA;When I joined Facebook 11 years ago, I was just hoping to work with cool hackers for a few years, experience the Silicon Valley tech scene, make some money, and then go back to school to continue my theoretical computer science research. I soon became obsessed with the impact I got to make on billions of people, the coworkers I got to collaborate with and learn from, and the new skills and mindset shifts I got to pick up every day.</description>
     </item>
     <item>
       <title>Google Cloud Setup for Deep Learning</title>
-      <link>http://localhost:1313/gcp-setup/</link>
+      <link>http://localhost:59789/gcp-setup/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gcp-setup/</guid>
+      <guid>http://localhost:59789/gcp-setup/</guid>
       <description>Introduction Unlike most deep learning courses that teach you the core concepts based on toy examples, the course I&amp;rsquo;ve been taking recently, Deep Learning Fundametals, gets you hands-on with the latest open-source tools for training real-world deep learning models. While this sounds exciting, it does demand more than the conventional Google Colab / Macbook development environments can offer – without some serious GPU power, it takes forever to train a ResNet-50 from scratch or fine tune all parameters of a DistilBert model.</description>
     </item>
   </channel>
