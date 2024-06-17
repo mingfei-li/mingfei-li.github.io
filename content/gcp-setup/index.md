@@ -4,6 +4,9 @@ date: '2023-08-18'
 category: 'blog'
 ---
 
+## Note: Jun 16, 2024 Update
+A year after writing this post, I realized that the best way to setup Google Cloud for deep learning (as an individual) is to **NOT** set it up at all! GPU rental platforms like [vast.ai](https://vast.ai/) or [runpod.io](https://www.runpod.io/) offer much cheaper and easier to use options for individual users, with a much wider selection of GPUs and shorter/no waiting times. I highly recommend that you check them out before you pick a major cloud platform (unless you have credits from the cloud platform wh)
+
 ## Introduction
 Unlike most deep learning courses that teach you the core concepts based on toy examples, the course I've been taking recently, [Deep Learning Fundametals](https://lightning.ai/courses/deep-learning-fundamentals/), gets you hands-on with the latest open-source tools for training real-world deep learning models. While this sounds exciting, it does demand more than the conventional Google Colab / Macbook development environments can offer – without some serious GPU power, it takes forever to train a ResNet-50 from scratch or fine tune all parameters of a DistilBert model. I set up a Google Cloud Platform (GCP) based development environment to run the code from the course and build up my solutions to exercises. This setup turned out to work pretty well both from a usability perspective and a cost perspective. In this blog post, I’ll walk through how the GCP environment was set up.
 
